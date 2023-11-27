@@ -16,6 +16,13 @@ const Navbar = () => {
     navLink1.innerHTML = 'Home';
     list.appendChild(navLink1);
 
+    const navLink4 = document.createElement('a');
+    navLink4.setAttribute('id', 'appetizer');
+    navLink4.setAttribute('class', 'mx-2');
+    navLink4.setAttribute('href', '#');
+    navLink4.innerHTML = 'Appetizers';
+    list.appendChild(navLink4);
+
     const navLink2 = document.createElement('a');
     navLink2.setAttribute('id', 'menu');
     navLink2.setAttribute('class', 'mx-2');
